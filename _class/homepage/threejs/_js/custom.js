@@ -17,7 +17,7 @@ function init( ) {
 	scene.background = new THREE.Color( 0xf0f0f0 );
 
 	const loader = new FontLoader();
-	loader.load( './_class/homepage/threejs/_css/helvetiker_regular.typeface.json', function ( font ) {
+	loader.load( 'https://class.00083.cn/_class/homepage/threejs/_css/helvetiker_regular.typeface.json', function ( font ) {
 
 		const color = 0x006699;
 

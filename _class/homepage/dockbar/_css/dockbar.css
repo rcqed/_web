@@ -1,0 +1,26 @@
+#dock {
+  position: fixed;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #EEE;
+  border-radius: 999px;
+}
+.item {
+  background: #DDD;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+#dock {
+  visibility: hidden;
+}
+#dock:defined {
+  visibility: visible;
+}
+#dock a {
+  text-decoration: none;
+}

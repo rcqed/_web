@@ -47,7 +47,7 @@ document.write('<link rel="stylesheet" href="./_class/docsify/markmap/_css/markm
 
 // docsify-mermaid-zoom: https://github.com/corentinleberre/docsify-mermaid-zoom
 document.write('<script src="./_class/docsify/docsify-mermaid-zoom/_js/d3@7.js"></script>');
-document.write('<script src="./_class/docsify/docsify-mermaid-zoom/_js/mermaid/mermaid.min.js"></script>');
+document.write('<script type="module" src="./_class/homepage/threejs/_js/main.js"></script>');
 document.write('<script src="./_class/docsify/docsify-mermaid-zoom/_js/docsify-mermaid.js"></script>');
 document.write('<script src="./_class/docsify/docsify-mermaid-zoom/_js/docsify-mermaid-zoom.js"></script>');
 

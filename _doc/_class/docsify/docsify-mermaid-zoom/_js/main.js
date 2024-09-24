@@ -1,7 +1,3 @@
-import { plugin } from "./docsify-mermaid-zoom.js";
-
-const { mermaidZoom = {}, mermaidConfig = {} } = window.$docsify;
-
-mermaidConfig.postRenderCallback = plugin(...Object.values(mermaidZoom));
-
-window.$docsify.mermaidConfig = mermaidConfig;
+import mermaid from "./mermaid/mermaid.esm.min.mjs";
+mermaid.initialize({ startOnLoad: true });
+window.mermaid = mermaid;

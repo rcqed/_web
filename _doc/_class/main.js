@@ -8,6 +8,7 @@ document.write('<script src="./_class/docsify/vanta/_js/vanta.globe.min.js"></sc
 document.write('<script src="./_class/docsify/vanta/_js/custom.js"></script>');
 
 // docsify: https://github.com/docsifyjs/docsify/
+document.write('<script src="./_class/docsify/docsify/_js/custom.js"></script>');
 document.write('<script src="./_class/docsify/docsify/_js/docsify.min.js"></script>');
 
 // docsify-share: https://github.com/coroo/docsify-share
